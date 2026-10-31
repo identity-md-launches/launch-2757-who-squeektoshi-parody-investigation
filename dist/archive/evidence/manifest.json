@@ -1,0 +1,205 @@
+{
+  "filedUtc": "2026-10-31",
+  "scope": "Hamster and system only; no human identity attribution. Public sources. Read-only.",
+  "sources": [
+    {
+      "id": "A",
+      "title": "Squeektoshi",
+      "url": "https://docs.squeekchain.com/system/squeektoshi.md",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "interpretationAndLimits": "See source-a in artifacts/index.html",
+      "retrievedBodySha256": "16f3330a567c186f339c16b0b2b0879568f239f4e9fea8d470530a38f0cfdbda"
+    },
+    {
+      "id": "B",
+      "title": "WHEELY9000",
+      "url": "https://docs.squeekchain.com/system/installation.md",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "interpretationAndLimits": "See source-b in artifacts/index.html",
+      "retrievedBodySha256": "dcc283e3f1537f2de44f4b1ec0a7d3a27b01bf8b2524e59f84eacf828f8078cd"
+    },
+    {
+      "id": "C",
+      "title": "Whitepaper",
+      "url": "https://docs.squeekchain.com/whitepaper.md",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "interpretationAndLimits": "See source-c in artifacts/index.html",
+      "retrievedBodySha256": "e6d23ab85d41a39d98d6845a0275b5f670f921ccfa48fec6de931186e11e112f"
+    },
+    {
+      "id": "D",
+      "title": "Live API status",
+      "url": "https://api.squeekchain.com/v1/status",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "interpretationAndLimits": "See source-d in artifacts/index.html",
+      "retrievedBodySha256": "07b372cbdc5e64bababd254798994f622bf00ce79cf460edbce73914a3d37106"
+    },
+    {
+      "id": "E",
+      "title": "Seven-day API statistics",
+      "url": "https://api.squeekchain.com/v1/measurement/stats?range=7d",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "interpretationAndLimits": "See source-e in artifacts/index.html",
+      "retrievedBodySha256": "0c0ad74aab57935efc8a30632053ca83596a4db13c57c28677ca7c9823e976b3"
+    },
+    {
+      "id": "F",
+      "title": "Sepolia deployment record",
+      "url": "https://docs.squeekchain.com/assets/deployments/sepolia.json",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "interpretationAndLimits": "See source-f in artifacts/index.html",
+      "retrievedBodySha256": "92bb69abb376d8b8ad236e99659bc0b39c222065995c432bd67bfe06efff4e45"
+    },
+    {
+      "id": "H",
+      "title": "Proof limits",
+      "url": "https://docs.squeekchain.com/security/proof-limits.md",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "interpretationAndLimits": "See source-h in artifacts/index.html",
+      "retrievedBodySha256": "af2122173c8dfb7ba0760dda105432485f6d0fc6a93129eccdb60ddedb300afc"
+    },
+    {
+      "id": "I",
+      "title": "SQK token",
+      "url": "https://docs.squeekchain.com/rewards/token.md",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "interpretationAndLimits": "See source-i in artifacts/index.html",
+      "retrievedBodySha256": "477713045e9eadca9e26370474dc468d7ffb61c86a9c1cb585726a452e184949"
+    },
+    {
+      "id": "J",
+      "title": "SQK issuance",
+      "url": "https://docs.squeekchain.com/rewards/creation.md",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "interpretationAndLimits": "See source-j in artifacts/index.html",
+      "retrievedBodySha256": "d3df63caa19203ac815906f3719490933abe1b663a1520973e3052f6519f0526"
+    },
+    {
+      "id": "K",
+      "title": "API definitions",
+      "url": "https://docs.squeekchain.com/developers/api.md#measurement-stats",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "interpretationAndLimits": "See source-k in artifacts/index.html",
+      "retrievedBodySha256": "7d15e2a76f75652c9c6bfc2c6fe41c543dfada1632a4a1fb8dd21b8da217a028"
+    },
+    {
+      "id": "L",
+      "title": "Settlement",
+      "url": "https://docs.squeekchain.com/system/settlement.md",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "interpretationAndLimits": "See source-l in artifacts/index.html",
+      "retrievedBodySha256": "83223362afd6ccdf1c13bfb59053abd2f9185b32f86839366ba7c67e45e0c1b7"
+    },
+    {
+      "id": "M",
+      "title": "Documentation index",
+      "url": "https://docs.squeekchain.com/llms.txt",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "interpretationAndLimits": "See source-m in artifacts/index.html"
+    },
+    {
+      "id": "N",
+      "title": "Sepolia console",
+      "url": "https://sepolia.squeekchain.com",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "interpretationAndLimits": "See source-n in artifacts/index.html",
+      "retrievedBodySha256": "8c1869eb33a4208e5b57a15a7af4f324aea28e511c3305ee2b7b118098205383"
+    },
+    {
+      "id": "G",
+      "title": "Read-only Sepolia chain snapshot",
+      "url": "https://eth-sepolia.blockscout.com/block/12030379",
+      "readDateUtc": "2026-10-31",
+      "snapshotBlock": 12030379,
+      "snapshotBlockHash": "0x2dae668de9d4ebbcbfc65b0a00cd13d21d84008bc9202c6b2d4d5e684119b218",
+      "capture": "chain.json",
+      "limitations": "Bounded state/configuration reads and historical nonce search; not an exhaustive event, implementation, Safe or signature audit."
+    },
+    {
+      "id": "G-ABI-SqueekCore",
+      "title": "SqueekCore ABI",
+      "url": "https://docs.squeekchain.com/assets/abi/SqueekCore.json",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "retrievedBodySha256": "95d9ea6a90e68b7e3e124a111c9784d04fbe6a0d2b4e615757506d9fc6a04e91"
+    },
+    {
+      "id": "G-ABI-SqueekMining",
+      "title": "SqueekMining ABI",
+      "url": "https://docs.squeekchain.com/assets/abi/SqueekMining.json",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "retrievedBodySha256": "9f71878e72bfce2dc769d18ecc32213fdcd45f1e4c4f48eb173f07596ec9af9b"
+    },
+    {
+      "id": "G-ABI-SqueekToken",
+      "title": "SqueekToken ABI",
+      "url": "https://docs.squeekchain.com/assets/abi/SqueekToken.json",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "retrievedBodySha256": "483f80b4a16d1a7910f352dd9f0ae0775506bd6a6cf71f0bd4f14c4c499a813d"
+    },
+    {
+      "id": "G-ABI-SqueekNFT",
+      "title": "SqueekNFT ABI",
+      "url": "https://docs.squeekchain.com/assets/abi/SqueekNFT.json",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "retrievedBodySha256": "b5dbfde07e77f4bad947b97f813683e573b7944c11812e66db02752ddcced746"
+    },
+    {
+      "id": "N-bundle",
+      "title": "Console public application bundle",
+      "url": "https://sepolia.squeekchain.com/assets/index-CztoQioH.js",
+      "readDateUtc": "2026-10-31",
+      "retrieval": "successful HTTP retrieval",
+      "retrievedBodySha256": "b4c64c1621449aa3f2ce431f52d04cb26800b23c449beecb2eb3a332ebba87d3",
+      "limitations": "Text inspection only; not executed."
+    }
+  ],
+  "captures": [
+    {
+      "path": "chain.json",
+      "bytes": 13087,
+      "sha256": "0f1ddae919811f97b96ade97be37e88f80a4d7bd1516669aa0de23a6c658911b"
+    },
+    {
+      "path": "core-abi.json",
+      "bytes": 18914,
+      "sha256": "95d9ea6a90e68b7e3e124a111c9784d04fbe6a0d2b4e615757506d9fc6a04e91"
+    },
+    {
+      "path": "deployment.json",
+      "bytes": 4984,
+      "sha256": "92bb69abb376d8b8ad236e99659bc0b39c222065995c432bd67bfe06efff4e45"
+    },
+    {
+      "path": "stats.json",
+      "bytes": 35943,
+      "sha256": "0c0ad74aab57935efc8a30632053ca83596a4db13c57c28677ca7c9823e976b3"
+    },
+    {
+      "path": "status.json",
+      "bytes": 3317,
+      "sha256": "07b372cbdc5e64bababd254798994f622bf00ce79cf460edbce73914a3d37106"
+    }
+  ],
+  "notes": [
+    "retrievedBodySha256 for non-retained documentation identifies the body read; it cannot be rechecked offline without that body. Full documentation and console bundle are not redistributed.",
+    "Capture hashes establish integrity of these saved files, not truth, freshness, provenance authentication or independent verification.",
+    "No private keys, signing operations or transactions were involved."
+  ]
+}

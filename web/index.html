@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f0e2">
+  <title>Who is Squeektoshi? | The Wheel Inquiry</title>
+  <meta name="description" content="One wheel. A very obvious suspect. A sourced, unofficial parody investigation into Squeektoshi, the hamster behind SqueekChain. Follow the evidence and check his live alibi.">
+  <meta property="og:title" content="Who is Squeektoshi? The Wheel Inquiry">
+  <meta property="og:description" content="A hamster. A blockchain. An unnecessarily thorough investigation. Follow the red string.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/share.png">
+  <meta property="og:image:alt" content="Who is Squeektoshi? A hamster portrait pinned to an evidence board. Verdict: hamster.">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./board.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#evidence">Skip to the evidence</a>
+<header class="masthead">
+  <a class="brand" href="#top"><img src="./assets/favicon.svg" width="32" height="32" alt=""><span>The Wheel Inquiry</span></a>
+  <span class="edition">Case 001 · 31 Oct 2026</span>
+  <a class="console-link" href="https://sepolia.squeekchain.com" target="_blank" rel="noopener noreferrer">Open console <span aria-hidden="true">↗</span></a>
+</header>
+<main id="top">
+  <section class="intro" aria-labelledby="title">
+    <div><h1 id="title">Who is <em>Squeektoshi?</em></h1><p>A public-evidence investigation into SqueekChain’s hamster-powered proof of work.</p></div>
+    <a class="primary" href="#evidence">Follow the evidence <span aria-hidden="true">↓</span></a>
+  </section>
+  <nav class="case-nav" aria-label="Case sections">
+    <a href="#evidence">Evidence</a><a href="#disappearance">The trail</a><a href="#suspects">Suspects</a><a href="#verdict">Verdict</a>
+  </nav>
+  <section class="board-section" id="evidence" aria-labelledby="evidence-title" tabindex="-1">
+    <div class="section-heading"><h2 id="evidence-title">Follow the red string.</h2><span class="section-note">Open a clue. Check the source. <span aria-hidden="true">↗</span></span></div>
+    <div class="board" id="clue-board">
+      <svg class="strings" aria-hidden="true" focusable="false"><path d=""/></svg>
+      <aside class="alibi pinned" id="alibi" aria-labelledby="alibi-title" data-state="loading">
+        <span class="pin" aria-hidden="true"></span>
+        <div class="alibi-heading"><h3 id="alibi-title">The live alibi</h3><span class="signal-dot" aria-hidden="true"></span></div>
+        <div class="alibi-state"><svg class="live-wheel" viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="33"/><circle cx="40" cy="40" r="5"/><path d="M40 7v28m0 10v28M7 40h28m10 0h28M17 17l19 19m8 8 19 19M63 17 44 36m-8 8L17 63"/></svg><div><strong id="status-label">Checking…</strong><span id="status-speed">Awaiting wheel data</span></div></div>
+        <p id="status-description">Contacting the public status API.</p>
+        <div class="alibi-meta"><span id="status-observed">No reading yet</span><span id="status-checked">Refreshes every 10 seconds</span></div>
+        <div class="alibi-actions"><button id="refresh-status" type="button" hidden>Check again <span aria-hidden="true">↻</span></button><button id="pause-status" type="button" hidden>Pause updates</button></div>
+        <a class="alibi-source" href="https://api.squeekchain.com/v1/status" target="_blank" rel="noopener noreferrer">Inspect live status <span aria-hidden="true">↗</span></a>
+        <details class="status-method"><summary>What this alibi means</summary><p>Running means fresh, hardware-reported wheel speed above zero. Resting means zero speed, not proven sleep. Stale means the reading is old or cannot reliably describe the wheel. Offline means this page could not retrieve status.</p><p>Freshness uses the API’s threshold (currently 120 seconds), response time, and observation and receipt timestamps. Device faults and non-hardware readings never establish an alibi. This is telemetry, not proof of identity.</p><a href="https://docs.squeekchain.com/developers/api/" target="_blank" rel="noopener noreferrer">Read API definitions ↗</a></details>
+        <noscript><p>Live updates need JavaScript. The sourced case file below remains readable.</p></noscript>
+        <span class="sr-only" id="status-announcement" role="status" aria-live="polite" aria-atomic="true"></span>
+      </aside>
+      <a class="clue identity pinned" id="clue-identity" href="https://docs.squeekchain.com/system/squeektoshi/" target="_blank" rel="noopener noreferrer" aria-labelledby="identity-title identity-source">
+        <span class="pin" aria-hidden="true"></span>
+        <div class="clue-top"><span>01 · The subject</span><span>Documented</span></div>
+        <figure><img src="./assets/hamster.svg" width="420" height="310" alt="Illustration of a white and orange hamster beside a wheel. Not a photograph."><figcaption>Artist’s reconstruction · not evidence</figcaption></figure>
+        <h3 id="identity-title">A suspiciously hamster-shaped individual.</h3>
+        <p>Male. Syrian hamster. White-orange. The project’s biography is unusually forthcoming.</p>
+        <span class="source-link" id="identity-source">Read the biography <span aria-hidden="true">↗</span></span>
+      </a>
+      <a class="clue apparatus pinned" id="clue-machine" href="https://docs.squeekchain.com/system/installation/" target="_blank" rel="noopener noreferrer" aria-labelledby="machine-title machine-source">
+        <span class="pin" aria-hidden="true"></span>
+        <div class="clue-top"><span>02 · The apparatus</span><span>Documented</span></div>
+        <h3 id="machine-title">The wheel has witnesses.</h3>
+        <svg class="machine-drawing" viewBox="0 0 330 170" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="90" cy="73" r="58"/><circle cx="90" cy="73" r="50" stroke-dasharray="4 5"/><circle cx="90" cy="73" r="4"/><path d="M90 77v70m-41 0h82M90 15v54m-58 4h54m8 0h54M49 32l38 38m7 7 37 37M49 114l38-38m7-7 37-37"/><rect x="198" y="44" width="84" height="60" rx="3"/><rect x="220" y="57" width="34" height="32"/><path d="M225 52v-6m7 6v-6m8 6v-6m7 6v-6m-22 43v6m7-6v6m8-6v6m7-6v6M148 74h48m45 30v43h-85"/><path d="m175 69 8 5-8 5"/><circle cx="204" cy="50" r="2"/><circle cx="276" cy="98" r="2"/></g></svg>
+        <div class="machine-labels"><span>WHEELY9000</span><span>Raspberry Pi</span></div>
+        <p>A magnet, a Hall sensor and a Pi turn accepted passages into ten-minute work records. Cameras watch independently.</p>
+        <span class="annotation">The Pi does the paperwork.</span>
+        <span class="source-link" id="machine-source">Inspect the WHEELY9000 <span aria-hidden="true">↗</span></span>
+      </a>
+      <a class="clue movement pinned" id="clue-activity" href="./archive/evidence/stats.json" target="_blank" rel="noopener" aria-labelledby="activity-title activity-source">
+        <span class="pin" aria-hidden="true"></span>
+        <div class="clue-top"><span>03 · The movement log</span><span>API snapshot</span></div>
+        <h3 id="activity-title">48.634 km. No destination.</h3>
+        <div class="mini-chart" role="img" aria-label="Reported distance by noon-to-noon UTC day: 24 and 25 October missing; 26 October 9.818 kilometres, partial; 27 October 9.562; 28 October 9.295; 29 October 11.675; 30 October 8.284, in progress.">
+          <div class="bar-column missing"><span class="bar"></span><span>24</span></div><div class="bar-column missing"><span class="bar"></span><span>25</span></div><div class="bar-column partial" style="--bar:84.1%"><span class="bar"></span><span>26</span></div><div class="bar-column" style="--bar:81.9%"><span class="bar"></span><span>27</span></div><div class="bar-column" style="--bar:79.6%"><span class="bar"></span><span>28</span></div><div class="bar-column best" style="--bar:100%"><span class="bar"></span><span>29</span></div><div class="bar-column partial" style="--bar:71%"><span class="bar"></span><span>30</span></div>
+        </div>
+        <p>Best day: <strong>29 Oct · 11.675 km</strong>.<br>Busiest half hour: <strong>27 Oct, 22:00–22:30 UTC</strong> · 1,827 work units.</p>
+        <p class="small">7-day snapshot · 31 Oct, 00:52 UTC. 68.22% coverage. Days start at noon UTC; stripes mark partial days. Gaps are unknown.</p>
+        <span class="source-link" id="activity-source">Open saved API evidence <span aria-hidden="true">↗</span></span>
+      </a>
+      <a class="clue signature pinned" id="clue-signature" href="https://docs.squeekchain.com/assets/deployments/sepolia.json" target="_blank" rel="noopener noreferrer" aria-labelledby="signature-title signature-source">
+        <span class="pin" aria-hidden="true"></span>
+        <div class="clue-top"><span>04 · The signature</span><span>Public record</span></div>
+        <h3 id="signature-title">The signature has no paws.</h3>
+        <div class="signature-mark" aria-hidden="true"><svg viewBox="0 0 290 95"><path d="M13 72q38-67 48-51t-14 45q-20 23 0-4l37-47q11-7-1 25T70 64l47-38q9-3-2 20t1 13l30-27q13-2 3 15t12 5l14-11q8-5 6 5t15 1l20-7q11-5 13 0t29-4M15 83q91-20 254-18"/></svg></div>
+        <p>The <strong>Reporter key</strong> authorizes each settlement. The <strong>relayer</strong> submits it and pays gas. A signature proves authorization, not fur.</p>
+        <p class="small">Both named cores report the same Reporter in the saved chain read. The device’s signing chip is a separate layer.</p>
+        <span class="source-link" id="signature-source">Inspect the deployment record <span aria-hidden="true">↗</span></span>
+      </a>
+      <a class="clue coins pinned" id="clue-money" href="https://docs.squeekchain.com/rewards/token/" target="_blank" rel="noopener noreferrer" aria-labelledby="money-title money-source">
+        <span class="pin" aria-hidden="true"></span>
+        <div class="clue-top"><span>05 · Follow the money</span><span>Documented</span></div>
+        <h3 id="money-title">His coins. Allegedly.</h3>
+        <dl class="token-facts"><div><dt>Lifetime cap</dt><dd>2.1 billion SQK</dd></div><div><dt>Launch premine</dt><dd>10%</dd></div><div><dt>Per Squeek block</dt><dd>6,900 SQK</dd></div><div><dt>On Sepolia</dt><dd>5,600 SQK</dd></div></dl>
+        <p class="small">Sepolia has no premine. “Hamster-Owned Liquidity Safe” is the project’s name for its reserve recipient, not proof of hamster control.</p>
+        <span class="source-link" id="money-source">Read the token documentation <span aria-hidden="true">↗</span></span>
+      </a>
+    </div>
+    <div class="notes-row">
+      <a class="field-note care-note pinned" href="https://docs.squeekchain.com/system/squeektoshi/#care-policy" target="_blank" rel="noopener noreferrer"><span class="pin" aria-hidden="true"></span><h3>Rest is in the contract.</h3><p>The care policy puts welfare first: voluntary running, undisturbed rest, no waking for mining, no restricted food or water. Stop filming or mining if care requires it.</p><span class="source-link">Read the care policy ↗</span><span class="small">A published policy; compliance was not independently inspected.</span></a>
+      <a class="field-note rest-note pinned" href="https://docs.squeekchain.com/security/proof-limits/" target="_blank" rel="noopener noreferrer"><span class="pin" aria-hidden="true"></span><h3>Missing ≠ napping.</h3><p>The saved statistics show 118 active rounds, 524 zero-work rounds and 299 missing rounds. Zero work is consistent with rest, but downtime can also produce zeros.</p><span class="source-link">Read what the system proves ↗</span><span class="small">One round is ten minutes. Missing data stays unknown.</span></a>
+    </div>
+  </section>
+  <section class="paper-section disappearance" id="disappearance" aria-labelledby="disappearance-title">
+    <div class="section-heading"><h2 id="disappearance-title">The first disappearance.</h2><span class="annotation">The hamster has not vanished.</span></div>
+    <p class="section-intro">On 30 October, the reported trail went cold at the published core. Its last located settlement was on 26 October. The API was following a different core.</p>
+    <div class="core-comparison">
+      <article><h3>The published paper trail</h3><a class="address" href="https://eth-sepolia.blockscout.com/address/0x74665dAecA35A2303e767E76a2FF1FB6F93e119f" target="_blank" rel="noopener noreferrer"><code>0x74665dAecA35A2303e767E76a2FF1FB6F93e119f</code><span aria-hidden="true">↗</span></a><dl><div><dt>Last settlement located</dt><dd>26 Oct 2026 · 16:20:36 UTC</dd></div><div><dt>Settled through round</dt><dd>1,973</dd></div><div><dt>Ethereum block</dt><dd>11,999,145</dd></div></dl><a class="text-action" href="https://eth-sepolia.blockscout.com/tx/0x502d216baff7732ac31ab59b8e3b44911b33834c6b3ca5ad3b7e1c18fbd20eb0" target="_blank" rel="noopener noreferrer">Inspect the last located settlement ↗</a></article>
+      <article><h3>The API’s other ledger</h3><a class="address" href="https://eth-sepolia.blockscout.com/address/0x980B4424c007CAf7a1f3670B48c8EaEf7EbC3d44" target="_blank" rel="noopener noreferrer"><code>0x980B4424c007CAf7a1f3670B48c8EaEf7EbC3d44</code><span aria-hidden="true">↗</span></a><dl><div><dt>Settlement in the saved read</dt><dd>31 Oct 2026 · 00:50:36 UTC</dd></div><div><dt>Settled through round</dt><dd>642</dd></div><div><dt>Ethereum block</dt><dd>12,030,363</dd></div></dl><a class="text-action" href="https://eth-sepolia.blockscout.com/tx/0xa56900c8edbfd19fe03a610fbe07655712c4e03991d7e5238ffe131a90fc5ba0" target="_blank" rel="noopener noreferrer">Inspect the live-core settlement ↗</a></article>
+    </div>
+    <p class="finding"><strong>Our inference:</strong> a break in the public paper trail, not proof that the wheel stopped. These cores have different streams and genesis times. Their totals are separate histories.</p>
+    <p class="small">Chain snapshot: block 12,030,379, 31 Oct 2026, 00:53:48 UTC. The original 30 October check comes from the brief; the saved 31 October read supports its cutoff. The reason for the mismatch remains unresolved. <a href="./archive/evidence/chain.json" target="_blank" rel="noopener">Open the saved chain reads ↗</a></p>
+    <details class="evidence-drawer"><summary>The contract evidence bag <span>8 system roles · full public addresses</span></summary>
+      <p>Ethereum Sepolia · chain ID 11155111. Published roles from the deployment record; observations from the saved chain read. Addresses identify system roles only.</p>
+      <dl class="contract-list">
+        <div><dt>Published SqueekCore</dt><dd><code>0x74665dAecA35A2303e767E76a2FF1FB6F93e119f</code><span>Settles work. The older core named in the docs.</span></dd></div>
+        <div><dt>API-followed SqueekCore</dt><dd><code>0x980B4424c007CAf7a1f3670B48c8EaEf7EbC3d44</code><span>The saved API anchor receipt targets this core.</span></dd></div>
+        <div><dt>Published SqueekMining</dt><dd><code>0x3beE588fC20dE788Bac17d33b41Da7346cb27EC4</code><span>Reward distributor. Saved read: 5,600 SQK per block; points to the older core.</span></dd></div>
+        <div><dt>Published SqueekToken</dt><dd><code>0x6872bfa5ccc3e9e440c6c16e5ffdabb8dba4cc76</code><span>SQK token. Saved cap read: 2.1 billion SQK.</span></dd></div>
+        <div><dt>Published SqueekNFT</dt><dd><code>0x0eAF3E0d40A0a8E5a6Ac030b2459E9FB0B7905c6</code><span>Squeek NFTs. Saved views match published Mining, older Core and economic recipient.</span></dd></div>
+        <div><dt>Reporter</dt><dd><code>0xB317AB7Cc24fD5d94EA120B3b189bc6527a7d0Aa</code><span>Public signing address. EIP-712 authorization for every settlement; historical signatures were not exhaustively recovered.</span></dd></div>
+        <div><dt>Relayer</dt><dd><code>0xd3c8e8df661f055becb6a20dad479f4dcc6f7cd7</code><span>Submits signed batches and pays gas. Matches the saved anchor receipt sender.</span></dd></div>
+        <div><dt>Hamster-Owned Liquidity Safe</dt><dd><code>0x828cb04dbf0bdd8eb35d19045638a1af6e3d17e8</code><span>Protocol reserve, sale closeout and royalty recipient. No balance or beneficial-ownership claim.</span></dd></div>
+      </dl><p><a href="https://docs.squeekchain.com/assets/deployments/sepolia.json" target="_blank" rel="noopener noreferrer">Read the deployment record ↗</a> · <a href="./archive/evidence/chain.json" target="_blank" rel="noopener">Read the chain snapshot ↗</a></p>
+      <p class="small">Selected reads establish neither implementation integrity nor Safe control. The older deployment’s reward rules are not assumed to govern the API core’s wider deployment.</p>
+    </details>
+    <aside class="conflict-note"><h3>The paperwork disagrees.</h3><p>The <a href="https://docs.squeekchain.com/rewards/creation/" target="_blank" rel="noopener noreferrer">issuance docs</a> say <strong>no halvings</strong>; the <a href="https://docs.squeekchain.com/whitepaper/" target="_blank" rel="noopener noreferrer">whitepaper</a> describes annual halvings over three years. <a href="https://docs.squeekchain.com/llms.txt" target="_blank" rel="noopener noreferrer">llms.txt</a> repeats the 6,900 / 5,600 rates. We record the disagreement, rather than invent a consistent policy.</p></aside>
+  </section>
+  <section class="suspects-section" id="suspects" aria-labelledby="suspects-title">
+    <div class="section-heading"><h2 id="suspects-title">The usual non-human suspects.</h2><span class="section-note">Select a suspect to read its alibi.</span></div>
+    <p class="section-intro">Five parody theories. No source alleges an impersonator. The following deductions are ours.</p>
+    <div class="suspect-grid">
+      <details class="suspect"><summary><svg viewBox="0 0 100 90" aria-hidden="true"><path d="M21 39 18 13l27 18h10l27-18-3 26q13 39-29 41Q8 78 21 39Z"/><path d="m31 48 9 3m20 0 9-3m-23 11 4 4 4-4m-4 4v6m-26-8-17-4m17 12L6 72m70-11 17-4M76 69l18 3"/></svg><h3>A cat</h3><span class="suspect-teaser">Motive: professional rivalry.</span><span class="disclosure-label">Read alibi <span aria-hidden="true">+</span></span></summary><div class="suspect-alibi"><p>The biography says Syrian hamster. The sensor cannot identify species, so the chain alone cannot rule a cat in or out.</p><p class="annotation">No feline evidence.</p><a href="https://docs.squeekchain.com/system/squeektoshi/" target="_blank" rel="noopener noreferrer">Check the biography ↗</a></div></details>
+      <details class="suspect"><summary><svg viewBox="0 0 100 90" aria-hidden="true"><circle cx="50" cy="37" r="30"/><circle cx="50" cy="37" r="4"/><path d="M50 41v40M28 81h44M50 7v26M20 37h26m8 0h26M29 16l18 18m6 6 18 18M71 16 53 34m-6 6L29 58"/></svg><h3>The WHEELY9000</h3><span class="suspect-teaser">Suspiciously well branded.</span><span class="disclosure-label">Read alibi <span aria-hidden="true">+</span></span></summary><div class="suspect-alibi"><p>A wheel, magnet and sensor record passages. The installation holds neither the Reporter key nor the relayer key.</p><p class="annotation">Apparatus, not an author.</p><a href="https://docs.squeekchain.com/system/installation/" target="_blank" rel="noopener noreferrer">Check the apparatus ↗</a></div></details>
+      <details class="suspect"><summary><svg viewBox="0 0 100 90" aria-hidden="true"><rect x="15" y="19" width="70" height="53" rx="3"/><rect x="37" y="30" width="30" height="28"/><path d="M21 13v6m8-6v6m8-6v6m8-6v6m8-6v6m8-6v6m8-6v6m8-6v6M21 72v6m8-6v6m8-6v6m8-6v6m8-6v6m8-6v6m8-6v6m8-6v6"/><circle cx="22" cy="26" r="2"/><circle cx="78" cy="65" r="2"/></svg><h3>The Raspberry Pi</h3><span class="suspect-teaser">Has access to the records.</span><span class="disclosure-label">Read alibi <span aria-hidden="true">+</span></span></summary><div class="suspect-alibi"><p>The Pi counts and stores work. Its signing chip signs host-supplied bytes; it cannot verify their physical truth.</p><p class="annotation">A clerk with a trust boundary.</p><a href="https://docs.squeekchain.com/security/proof-limits/" target="_blank" rel="noopener noreferrer">Check the proof limits ↗</a></div></details>
+      <details class="suspect"><summary><svg viewBox="0 0 100 90" aria-hidden="true"><circle cx="32" cy="33" r="21"/><circle cx="27" cy="28" r="5"/><path d="m47 48 33 33 11-11-8-8-6 6-7-7 6-6-8-8-6 6-7-7"/></svg><h3>The Reporter key</h3><span class="suspect-teaser">Signs everything. Says nothing.</span><span class="disclosure-label">Read alibi <span aria-hidden="true">+</span></span></summary><div class="suspect-alibi"><p>It approves exact settlement batches. It does not measure the wheel or identify its runner. The relayer sends the transaction.</p><p class="annotation">A witness to authorization.</p><a href="https://docs.squeekchain.com/assets/deployments/sepolia.json" target="_blank" rel="noopener noreferrer">Check the signing role ↗</a></div></details>
+      <details class="suspect"><summary><svg viewBox="0 0 100 90" aria-hidden="true"><path d="m50 8 12 25 28 4-20 20 5 28-25-14-25 14 5-28-20-20 28-4Z"/><path d="M35 46q-5-13 3-14t11 9m5 0q2-11 9-9t4 14M34 48q-7 21 16 22t19-21"/><circle cx="43" cy="51" r="1"/><circle cx="58" cy="51" r="1"/><path d="m47 59 3 2 3-2"/></svg><h3>A Hollywood hamster</h3><span class="suspect-teaser">The stunt-double hypothesis.</span><span class="disclosure-label">Read alibi <span aria-hidden="true">+</span></span></summary><div class="suspect-alibi"><p>The records describe a young male Syrian hamster. Nothing examined identifies a substitute animal or verifies a performer’s identity.</p><p class="annotation">Casting rumor unverified.</p><a href="https://docs.squeekchain.com/system/squeektoshi/" target="_blank" rel="noopener noreferrer">Check the subject’s record ↗</a></div></details>
+    </div>
+  </section>
+  <section class="paper-section sources-section" id="sources" aria-labelledby="sources-title">
+    <div class="section-heading"><h2 id="sources-title">Receipts, not rumors.</h2><a class="text-action" href="./archive/case-file.md" download>Download the full case file <span aria-hidden="true">↓</span></a></div>
+    <p class="section-intro">Filed 31 October 2026 UTC. The board summarizes the original research below. Live alibi readings are separate from this frozen evidence.</p>
+    <details class="source-ledger"><summary>Open the source ledger <span>Public docs, API captures and chain reads</span></summary>
+      <ol class="source-list">
+        <li><a href="https://docs.squeekchain.com/system/squeektoshi/" target="_blank" rel="noopener noreferrer">Squeektoshi: biography &amp; care policy ↗</a><p>Species, sex, colour and voluntary activity are project assertions. Welfare compliance was not independently inspected.</p></li>
+        <li><a href="https://docs.squeekchain.com/system/installation/" target="_blank" rel="noopener noreferrer">The WHEELY9000 ↗</a><p>Wheel, magnet, Hall sensor, Pico, Pi and signing-chip responsibilities; independent video. No physical inspection.</p></li>
+        <li><a href="https://docs.squeekchain.com/whitepaper/" target="_blank" rel="noopener noreferrer">Whitepaper ↗</a><p>Hamster-powered toychain on Ethereum, trust boundaries and economics. Its halving schedule conflicts with the issuance docs.</p></li>
+        <li><a href="https://docs.squeekchain.com/llms.txt" target="_blank" rel="noopener noreferrer">llms.txt documentation index ↗</a><p>Project summary, 6,900 / 5,600 SQK rates, Sepolia testnet and links to the documentation.</p></li>
+        <li><a href="https://api.squeekchain.com/v1/status" target="_blank" rel="noopener noreferrer">Live status API ↗</a><p>Polled every 10 seconds while this page is visible and updates are enabled. <a href="./archive/evidence/status.json" target="_blank" rel="noopener">Original capture: 31 Oct, 00:53:04 UTC ↗</a>. Speed and freshness are readings, not authentication of the animal.</p></li>
+        <li><a href="https://api.squeekchain.com/v1/measurement/stats?range=7d" target="_blank" rel="noopener noreferrer">Seven-day measurement statistics ↗</a><p><a href="./archive/evidence/stats.json" target="_blank" rel="noopener">Board’s saved response: 31 Oct, 00:52:53 UTC ↗</a>. 55,392 work units; 48,634,176 mm. 642 of 941 rounds observed. Best day: 13,297 units. Busiest half hour: 1,827 units. Unavailable block/oracle statistics are not zeros.</p></li>
+        <li><a href="https://docs.squeekchain.com/assets/deployments/sepolia.json" target="_blank" rel="noopener noreferrer">Published Sepolia deployment ↗</a><p>Contract addresses, Reporter, relayer and economic recipient. <a href="./archive/evidence/deployment.json" target="_blank" rel="noopener">Open saved deployment ↗</a>. This record names the older core.</p></li>
+        <li><a href="./archive/evidence/chain.json" target="_blank" rel="noopener">Pinned Sepolia chain snapshot ↗</a><p>State/configuration reads, code presence, selected token/NFT views, settlement logs and the API anchor receipt at <a href="https://eth-sepolia.blockscout.com/block/12030379" target="_blank" rel="noopener noreferrer">block 12,030,379 ↗</a>. Historical nonce search located the last settlement increases; this is not an exhaustive event, upgrade, Safe-control or signature audit.</p></li>
+        <li><a href="https://docs.squeekchain.com/rewards/token/" target="_blank" rel="noopener noreferrer">The SQK token ↗</a> · <a href="https://docs.squeekchain.com/rewards/creation/" target="_blank" rel="noopener noreferrer">How SQK is issued ↗</a><p>2.1 billion cap, 10% launch premine, 6,900 SQK, no halvings. Sepolia exception: 5,600 SQK, no premine. Testnet SQK has no monetary value according to the docs.</p></li>
+        <li><a href="https://docs.squeekchain.com/developers/api/" target="_blank" rel="noopener noreferrer">API definitions ↗</a> · <a href="https://docs.squeekchain.com/security/proof-limits/" target="_blank" rel="noopener noreferrer">What the system proves ↗</a><p>Noon-to-noon days, freshness, units, measurement and authorization limits. A signature does not establish physical truth.</p></li>
+        <li><a href="https://sepolia.squeekchain.com" target="_blank" rel="noopener noreferrer">Sepolia console ↗</a><p>The project’s public console. Its page was retrieved; livestream authenticity and animal care were not verified. No video or third-party tracking is embedded here.</p></li>
+      </ol>
+      <p class="small">The <a href="./archive/index.html">original detailed report</a>, <a href="./archive/evidence/manifest.json" target="_blank" rel="noopener">capture manifest</a> and saved evidence remain available offline. External links open a new tab and need a connection.</p>
+    </details>
+  </section>
+  <section class="verdict-section" id="verdict" aria-labelledby="verdict-title">
+    <div class="verdict-stamp"><span>Case closed</span><strong>Hamster.</strong><span>Evidence overwhelmingly fluffy</span></div>
+    <div class="verdict-copy"><h2 id="verdict-title">Squeektoshi is a hamster.</h2><p>The answer was in the hamster documentation.</p><p>The project identifies a male Syrian hamster. The API records wheel activity; Ethereum records authorized settlements. The species conclusion follows the biography, not a cryptographic proof of hamsterhood.</p><p class="small">Still open: the two core histories, the reward-policy conflict and independent verification of physical measurements. None requires investigating people.</p><a class="text-action" href="https://docs.squeekchain.com/system/squeektoshi/" target="_blank" rel="noopener noreferrer">Check the remarkably explicit evidence ↗</a></div>
+  </section>
+</main>
+<footer><div><strong>The Wheel Inquiry</strong><p>Unofficial fan parody, not affiliated with SqueekChain.</p></div><p>Hamster and system only.<br>No human identities or wallet-to-person links.</p><a href="#top">Back to the board <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>

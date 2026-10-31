@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><filter id="s"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-opacity=".18"/></filter></defs>
+<rect width="1200" height="630" fill="#b59b78"/>
+<rect width="1200" height="100" fill="#f6f0e2"/>
+<text x="60" y="63" font-family="Georgia,serif" font-weight="bold" font-size="30" fill="#292820">The Wheel Inquiry</text>
+<text x="1140" y="61" text-anchor="end" font-family="Arial,sans-serif" font-size="20" fill="#5d594e">Case 001 · Unofficial fan parody</text>
+<path d="M565 175 912 148 1085 514 375 526" fill="none" stroke="#9b332b" stroke-width="3"/>
+<g transform="rotate(-2 348 345)"><rect x="48" y="151" width="629" height="393" fill="#f6f0e2" filter="url(#s)"/>
+<circle cx="354" cy="154" r="8" fill="#9b332b"/>
+<text x="85" y="266" font-family="Georgia,serif" font-weight="bold" font-size="70" fill="#292820">Who is</text>
+<text x="82" y="350" font-family="Georgia,serif" font-weight="bold" font-style="italic" font-size="78" fill="#9b332b">Squeektoshi?</text>
+<text x="85" y="409" font-family="Arial,sans-serif" font-size="25" fill="#292820">A hamster. A blockchain.</text>
+<text x="85" y="449" font-family="Arial,sans-serif" font-size="25" fill="#292820">An unnecessarily thorough investigation.</text>
+</g>
+<g transform="rotate(3 916 330)"><rect x="730" y="157" width="400" height="390" fill="#fffcf4" filter="url(#s)"/>
+<rect x="750" y="177" width="360" height="261" fill="#d7dfd0"/>
+<circle cx="933" cy="158" r="8" fill="#9b332b"/>
+<g transform="translate(783 168)"><ellipse cx="143" cy="241" rx="111" ry="12" fill="#b6c2ae"/><path d="M36 211c-15-37-8-96 19-127 10-23 47-43 79-37 57-13 110 32 111 93 18 37 1 77-32 88-37 12-134 16-167-2Z" fill="#f4eddb" stroke="#3e4438" stroke-width="3"/><path d="M52 96c-14-29-13-51 5-61 18-9 37 6 42 26m61-8c6-29 27-39 43-28 15 11 12 33 2 53" fill="#dba060" stroke="#3e4438" stroke-width="3"/><path d="M41 131c0-29 23-64 53-70l18 46-17 40-35 20Zm120-73c22 0 50 18 61 46l-35 43-22-27Z" fill="#cf8f48"/><ellipse cx="88" cy="131" rx="9" ry="11" fill="#282b26"/><ellipse cx="180" cy="131" rx="9" ry="11" fill="#282b26"/><path d="m126 152 10 8 10-8q-10-8-20 0Z" fill="#bb8178"/><path d="M136 160v10m0-2q-10 10-18 0m18 0q10 10 18 0m-47-11-48-7m48 15-51 6m108-14 48-7m-48 15 51 6" fill="none" stroke="#655d50" stroke-width="2"/></g>
+<text x="930" y="473" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#5d594e">Illustration · not evidence</text>
+<text x="930" y="516" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="32" fill="#9b332b">Verdict: hamster.</text></g></svg>

@@ -1,0 +1,185 @@
+{
+  "results": [
+    {
+      "engine": "chromium",
+      "name": "390px first screen",
+      "passed": true,
+      "detail": "Product title, primary action and live panel visible."
+    },
+    {
+      "engine": "chromium",
+      "name": "production 10-second polling",
+      "passed": true,
+      "detail": "Advanced browser clock 10,000ms; exactly one new request."
+    },
+    {
+      "engine": "chromium",
+      "name": "pause and aging",
+      "passed": true,
+      "detail": "Paused data ages to stale without network polling."
+    },
+    {
+      "engine": "chromium",
+      "name": "all alibi states and recovery",
+      "passed": true,
+      "detail": "Running, resting, stale, sensor fault, missing speed, offline, invalid JSON, null JSON, then successful retry."
+    },
+    {
+      "engine": "chromium",
+      "name": "primary anchor",
+      "passed": true,
+      "detail": "Navigates to and focuses the board without losing the hosting subpath."
+    },
+    {
+      "engine": "chromium",
+      "name": "whole clue opens its source",
+      "passed": true,
+      "detail": "Native anchor opens the exact biography URL in a new tab; external document response stubbed for this interaction."
+    },
+    {
+      "engine": "chromium",
+      "name": "five suspect alibis by keyboard",
+      "passed": true,
+      "detail": "Enter opens and Space closes every native disclosure."
+    },
+    {
+      "engine": "chromium",
+      "name": "contract disclosure, source ledger and download",
+      "passed": true,
+      "detail": "Eight complete addresses exposed; Markdown case file downloads."
+    },
+    {
+      "engine": "chromium",
+      "name": "responsive reflow",
+      "passed": true,
+      "detail": "No horizontal overflow at 320, 390, 768, 1024 or 1440px with evidence drawers open."
+    },
+    {
+      "engine": "chromium",
+      "name": "200% text enlargement",
+      "passed": true,
+      "detail": "No horizontal overflow at 390px with doubled root text size; not a native browser-zoom claim."
+    },
+    {
+      "engine": "chromium",
+      "name": "keyboard skip and focus",
+      "passed": true,
+      "detail": "Skip link focuses the board; next Tab reaches Check again with a 3px solid outline."
+    },
+    {
+      "engine": "chromium",
+      "name": "automated accessibility",
+      "passed": true,
+      "detail": "30 axe rules passed; 1 rules require manual review."
+    },
+    {
+      "engine": "chromium",
+      "name": "relative export resources",
+      "passed": true,
+      "detail": "12 local resources resolved below /ipfs/case/, including share image and archive."
+    },
+    {
+      "engine": "chromium",
+      "name": "application exceptions",
+      "passed": true,
+      "detail": "No pageerror events through tested interactions; network failures deliberately induced above."
+    },
+    {
+      "engine": "chromium",
+      "name": "no-JavaScript reading",
+      "passed": true,
+      "detail": "Report, links and native suspect disclosure remain usable; live-panel limitation is explicit."
+    },
+    {
+      "engine": "webkit",
+      "name": "390px first screen",
+      "passed": true,
+      "detail": "Product title, primary action and live panel visible."
+    },
+    {
+      "engine": "webkit",
+      "name": "production 10-second polling",
+      "passed": true,
+      "detail": "Advanced browser clock 10,000ms; exactly one new request."
+    },
+    {
+      "engine": "webkit",
+      "name": "pause and aging",
+      "passed": true,
+      "detail": "Paused data ages to stale without network polling."
+    },
+    {
+      "engine": "webkit",
+      "name": "all alibi states and recovery",
+      "passed": true,
+      "detail": "Running, resting, stale, sensor fault, missing speed, offline, invalid JSON, null JSON, then successful retry."
+    },
+    {
+      "engine": "webkit",
+      "name": "primary anchor",
+      "passed": true,
+      "detail": "Navigates to and focuses the board without losing the hosting subpath."
+    },
+    {
+      "engine": "webkit",
+      "name": "whole clue opens its source",
+      "passed": true,
+      "detail": "Native anchor opens the exact biography URL in a new tab; external document response stubbed for this interaction."
+    },
+    {
+      "engine": "webkit",
+      "name": "five suspect alibis by keyboard",
+      "passed": true,
+      "detail": "Enter opens and Space closes every native disclosure."
+    },
+    {
+      "engine": "webkit",
+      "name": "contract disclosure, source ledger and download",
+      "passed": true,
+      "detail": "Eight complete addresses exposed; Markdown case file downloads."
+    },
+    {
+      "engine": "webkit",
+      "name": "responsive reflow",
+      "passed": true,
+      "detail": "No horizontal overflow at 320, 390, 768, 1024 or 1440px with evidence drawers open."
+    },
+    {
+      "engine": "webkit",
+      "name": "200% text enlargement",
+      "passed": true,
+      "detail": "No horizontal overflow at 390px with doubled root text size; not a native browser-zoom claim."
+    },
+    {
+      "engine": "webkit",
+      "name": "keyboard skip and focus",
+      "passed": true,
+      "detail": "Skip link focuses the board; next Tab reaches Check again with a 3px solid outline."
+    },
+    {
+      "engine": "webkit",
+      "name": "automated accessibility",
+      "passed": true,
+      "detail": "30 axe rules passed; 1 rules require manual review."
+    },
+    {
+      "engine": "webkit",
+      "name": "relative export resources",
+      "passed": true,
+      "detail": "12 local resources resolved below /ipfs/case/, including share image and archive."
+    },
+    {
+      "engine": "webkit",
+      "name": "application exceptions",
+      "passed": true,
+      "detail": "No pageerror events through tested interactions; network failures deliberately induced above."
+    },
+    {
+      "engine": "webkit",
+      "name": "no-JavaScript reading",
+      "passed": true,
+      "detail": "Report, links and native suspect disclosure remain usable; live-panel limitation is explicit."
+    }
+  ],
+  "missing": []
+}
