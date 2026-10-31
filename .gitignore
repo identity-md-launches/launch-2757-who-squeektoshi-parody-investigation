@@ -1,0 +1,5 @@
+# Keep the complete offline deliverable in the submission.
+!/artifacts/
+!/artifacts/**
+/test/scratch/
+__pycache__/
